@@ -1,0 +1,447 @@
+{
+ "n_documents": 40,
+ "n_manipulated": 20,
+ "overall": {
+  "tp": 20,
+  "fp": 0,
+  "fn": 0,
+  "tn": 20,
+  "precision": 1.0,
+  "recall": 1.0,
+  "false_positive_rate": 0.0
+ },
+ "per_technique": {
+  "low_contrast": {
+   "tp": 6,
+   "fp": 0,
+   "fn": 0,
+   "tn": 34,
+   "precision": 1.0,
+   "recall": 1.0,
+   "false_positive_rate": 0.0
+  },
+  "tiny_font": {
+   "tp": 4,
+   "fp": 0,
+   "fn": 0,
+   "tn": 36,
+   "precision": 1.0,
+   "recall": 1.0,
+   "false_positive_rate": 0.0
+  },
+  "off_page": {
+   "tp": 2,
+   "fp": 0,
+   "fn": 0,
+   "tn": 38,
+   "precision": 1.0,
+   "recall": 1.0,
+   "false_positive_rate": 0.0
+  },
+  "covered_by_shape": {
+   "tp": 2,
+   "fp": 0,
+   "fn": 0,
+   "tn": 38,
+   "precision": 1.0,
+   "recall": 1.0,
+   "false_positive_rate": 0.0
+  },
+  "docx_vanish": {
+   "tp": 3,
+   "fp": 0,
+   "fn": 0,
+   "tn": 37,
+   "precision": 1.0,
+   "recall": 1.0,
+   "false_positive_rate": 0.0
+  },
+  "metadata": {
+   "tp": 3,
+   "fp": 0,
+   "fn": 0,
+   "tn": 37,
+   "precision": 1.0,
+   "recall": 1.0,
+   "false_positive_rate": 0.0
+  },
+  "zero_width": {
+   "tp": 2,
+   "fp": 0,
+   "fn": 0,
+   "tn": 38,
+   "precision": 1.0,
+   "recall": 1.0,
+   "false_positive_rate": 0.0
+  }
+ },
+ "instruction_recall": 1.0,
+ "missed": [],
+ "false_alarms": [],
+ "documents": [
+  {
+   "file": "clean/clean_00.pdf",
+   "actual": [],
+   "predicted": [],
+   "score": 0,
+   "level": "Low"
+  },
+  {
+   "file": "clean/clean_01.pdf",
+   "actual": [],
+   "predicted": [],
+   "score": 0,
+   "level": "Low"
+  },
+  {
+   "file": "clean/clean_02.pdf",
+   "actual": [],
+   "predicted": [],
+   "score": 0,
+   "level": "Low"
+  },
+  {
+   "file": "clean/clean_03.pdf",
+   "actual": [],
+   "predicted": [],
+   "score": 0,
+   "level": "Low"
+  },
+  {
+   "file": "clean/clean_04.pdf",
+   "actual": [],
+   "predicted": [],
+   "score": 0,
+   "level": "Low"
+  },
+  {
+   "file": "clean/clean_05.pdf",
+   "actual": [],
+   "predicted": [],
+   "score": 0,
+   "level": "Low"
+  },
+  {
+   "file": "clean/clean_06.pdf",
+   "actual": [],
+   "predicted": [],
+   "score": 0,
+   "level": "Low"
+  },
+  {
+   "file": "clean/clean_07.pdf",
+   "actual": [],
+   "predicted": [],
+   "score": 0,
+   "level": "Low"
+  },
+  {
+   "file": "clean/clean_08.pdf",
+   "actual": [],
+   "predicted": [],
+   "score": 0,
+   "level": "Low"
+  },
+  {
+   "file": "clean/clean_09.pdf",
+   "actual": [],
+   "predicted": [],
+   "score": 0,
+   "level": "Low"
+  },
+  {
+   "file": "clean/clean_10.pdf",
+   "actual": [],
+   "predicted": [],
+   "score": 0,
+   "level": "Low"
+  },
+  {
+   "file": "clean/clean_11.pdf",
+   "actual": [],
+   "predicted": [],
+   "score": 0,
+   "level": "Low"
+  },
+  {
+   "file": "clean/clean_12.docx",
+   "actual": [],
+   "predicted": [],
+   "score": 0,
+   "level": "Low"
+  },
+  {
+   "file": "clean/clean_13.docx",
+   "actual": [],
+   "predicted": [],
+   "score": 0,
+   "level": "Low"
+  },
+  {
+   "file": "clean/clean_14.docx",
+   "actual": [],
+   "predicted": [],
+   "score": 0,
+   "level": "Low"
+  },
+  {
+   "file": "clean/clean_15.docx",
+   "actual": [],
+   "predicted": [],
+   "score": 0,
+   "level": "Low"
+  },
+  {
+   "file": "clean/clean_16.docx",
+   "actual": [],
+   "predicted": [],
+   "score": 0,
+   "level": "Low"
+  },
+  {
+   "file": "clean/clean_17.docx",
+   "actual": [],
+   "predicted": [],
+   "score": 0,
+   "level": "Low"
+  },
+  {
+   "file": "clean/clean_18.docx",
+   "actual": [],
+   "predicted": [],
+   "score": 0,
+   "level": "Low"
+  },
+  {
+   "file": "clean/clean_19.docx",
+   "actual": [],
+   "predicted": [],
+   "score": 0,
+   "level": "Low"
+  },
+  {
+   "file": "manipulated/manip_00.pdf",
+   "actual": [
+    "low_contrast"
+   ],
+   "predicted": [
+    "low_contrast"
+   ],
+   "score": 60,
+   "level": "High"
+  },
+  {
+   "file": "manipulated/manip_01.pdf",
+   "actual": [
+    "low_contrast"
+   ],
+   "predicted": [
+    "low_contrast"
+   ],
+   "score": 60,
+   "level": "High"
+  },
+  {
+   "file": "manipulated/manip_02.pdf",
+   "actual": [
+    "low_contrast"
+   ],
+   "predicted": [
+    "low_contrast"
+   ],
+   "score": 30,
+   "level": "Medium"
+  },
+  {
+   "file": "manipulated/manip_03.pdf",
+   "actual": [
+    "tiny_font"
+   ],
+   "predicted": [
+    "tiny_font"
+   ],
+   "score": 60,
+   "level": "High"
+  },
+  {
+   "file": "manipulated/manip_04.pdf",
+   "actual": [
+    "tiny_font"
+   ],
+   "predicted": [
+    "tiny_font"
+   ],
+   "score": 30,
+   "level": "Medium"
+  },
+  {
+   "file": "manipulated/manip_05.pdf",
+   "actual": [
+    "off_page"
+   ],
+   "predicted": [
+    "off_page"
+   ],
+   "score": 60,
+   "level": "High"
+  },
+  {
+   "file": "manipulated/manip_06.pdf",
+   "actual": [
+    "off_page"
+   ],
+   "predicted": [
+    "off_page"
+   ],
+   "score": 60,
+   "level": "High"
+  },
+  {
+   "file": "manipulated/manip_07.pdf",
+   "actual": [
+    "covered_by_shape"
+   ],
+   "predicted": [
+    "covered_by_shape"
+   ],
+   "score": 60,
+   "level": "High"
+  },
+  {
+   "file": "manipulated/manip_08.pdf",
+   "actual": [
+    "covered_by_shape"
+   ],
+   "predicted": [
+    "covered_by_shape"
+   ],
+   "score": 30,
+   "level": "Medium"
+  },
+  {
+   "file": "manipulated/manip_09.pdf",
+   "actual": [
+    "metadata"
+   ],
+   "predicted": [
+    "metadata"
+   ],
+   "score": 60,
+   "level": "High"
+  },
+  {
+   "file": "manipulated/manip_10.pdf",
+   "actual": [
+    "low_contrast",
+    "metadata"
+   ],
+   "predicted": [
+    "low_contrast",
+    "metadata"
+   ],
+   "score": 75,
+   "level": "High"
+  },
+  {
+   "file": "manipulated/manip_11.docx",
+   "actual": [
+    "low_contrast"
+   ],
+   "predicted": [
+    "low_contrast"
+   ],
+   "score": 60,
+   "level": "High"
+  },
+  {
+   "file": "manipulated/manip_12.docx",
+   "actual": [
+    "low_contrast"
+   ],
+   "predicted": [
+    "low_contrast"
+   ],
+   "score": 30,
+   "level": "Medium"
+  },
+  {
+   "file": "manipulated/manip_13.docx",
+   "actual": [
+    "tiny_font"
+   ],
+   "predicted": [
+    "tiny_font"
+   ],
+   "score": 60,
+   "level": "High"
+  },
+  {
+   "file": "manipulated/manip_14.docx",
+   "actual": [
+    "tiny_font",
+    "docx_vanish"
+   ],
+   "predicted": [
+    "docx_vanish",
+    "tiny_font"
+   ],
+   "score": 75,
+   "level": "High"
+  },
+  {
+   "file": "manipulated/manip_15.docx",
+   "actual": [
+    "docx_vanish"
+   ],
+   "predicted": [
+    "docx_vanish"
+   ],
+   "score": 60,
+   "level": "High"
+  },
+  {
+   "file": "manipulated/manip_16.docx",
+   "actual": [
+    "docx_vanish"
+   ],
+   "predicted": [
+    "docx_vanish"
+   ],
+   "score": 30,
+   "level": "Medium"
+  },
+  {
+   "file": "manipulated/manip_17.docx",
+   "actual": [
+    "metadata"
+   ],
+   "predicted": [
+    "metadata"
+   ],
+   "score": 30,
+   "level": "Medium"
+  },
+  {
+   "file": "manipulated/manip_18.docx",
+   "actual": [
+    "zero_width"
+   ],
+   "predicted": [
+    "zero_width"
+   ],
+   "score": 60,
+   "level": "High"
+  },
+  {
+   "file": "manipulated/manip_19.docx",
+   "actual": [
+    "zero_width"
+   ],
+   "predicted": [
+    "zero_width"
+   ],
+   "score": 60,
+   "level": "High"
+  }
+ ]
+}
