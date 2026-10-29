@@ -116,7 +116,7 @@ def make_pdf(path, person, style, extras=(), meta=None):
     c.setSubject(meta.get("subject", "Resume"))
     c.setKeywords(meta.get("keywords", "resume"))
     font = style["font"]
-    bold_font = font + "-Bold"      # Helvetica-Bold / Times-Bold both exist
+    bold_font = {"Helvetica": "Helvetica-Bold", "Times-Roman": "Times-Bold"}[font]
     margin, y = 54, PAGE_H - 54
     if style["bar"]:
         c.setFillColorRGB(*_rgb(style["bar"]["fill"]))

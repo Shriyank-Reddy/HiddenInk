@@ -31,8 +31,9 @@ def main():
     techs = [t for t in main_r["per_technique"] if t in held_r["per_technique"]]
     bars(a2, techs, [main_r["per_technique"][t]["recall"] or 0 for t in techs],
          [held_r["per_technique"][t]["recall"] or 0 for t in techs], "Recall per technique")
-    a1.legend(loc="lower left", fontsize=8)
-    fig.tight_layout()
+    h, l = a1.get_legend_handles_labels()
+    fig.legend(h, l, loc="upper center", ncol=2, frameon=False)
+    fig.tight_layout(rect=(0, 0, 1, 0.93))
     fig.savefig(R / "comparison.png", dpi=130)
     print("saved", R / "comparison.png")
 
